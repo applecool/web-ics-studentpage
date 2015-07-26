@@ -1,57 +1,51 @@
-html,body{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	background-image: url(../images/bg.jpg);
-	background-color: #e6e6e6;	
-	font:14px/1.5 "Microsoft YaHei",Helvetia,"lucida Grande",Verdana,Arial
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url(../images/bg.jpg);
+  background-color: #e6e6e6;
+  font: 14px/1.5 "Microsoft YaHei", Helvetia, "lucida Grande", Verdana, Arial
 }
-
 ::selection {
-	background: #575a60;
-	color: #fff;
-	text-shadow: none;
+  background: #575a60;
+  color: #fff;
+  text-shadow: none;
 }
-a{
-	color:#515567;
-	text-decoration: none;
-	text-shadow: 0 2px 0 #ffffff;
+a {
+  color: #515567;
+  text-decoration: none;
+  text-shadow: 0 2px 0 #ffffff;
 }
-a:hover{
-	/* color: #21759b; */
-	color:#ef0000;
+a:hover {
+  /* color: #21759b; */
+  color: #ef0000;
 }
-
-li{
-	list-style: none;
-	text-align: left;
-	line-height: 40px;
+li {
+  list-style: none;
+  text-align: left;
+  line-height: 40px;
 }
-#outer{
-	position: relative;
-	width: 100%;
-	top: 29%;
+#outer {
+  position: relative;
+  width: 100%;
+  top: 29%;
 }
-
-#box{
-	margin: 0 auto;
-	font-size: 25px;
+#box {
+  margin: 0 auto;
+  font-size: 25px;
 }
-
-#box>ul{
-	width:180px;
-	margin:0 auto;
+#box>ul {
+  width: 180px;
+  margin: 0 auto;
 }
-
-#social{
-	width: 60%;
-	margin: 0 auto;
+#social {
+  width: 60%;
+  margin: 0 auto;
 }
-
 @media screen and (max-width: 480px) {
- /*IPhone portrait and smaller. You can probably stop on 320px*/
- #social ul li{
- 	float:left;
- 	width: 35px;
- }
+  /*IPhone portrait and smaller. You can probably stop on 320px*/
+  #social ul li {
+    float: left;
+    width: 35px;
+  }
 }

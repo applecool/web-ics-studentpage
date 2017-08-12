@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   background-image: url(../images/bg.jpg);
   background-color: #e6e6e6;
-  font: 14px/1.5 "Sans Serif", Helvetica, "lucida Grande", Verdana, Serif
+  font: 14px/1.5 "Microsoft YaHei", Helvetia, "lucida Grande", Verdana, Arial
 }
 ::selection {
   background: #575a60;

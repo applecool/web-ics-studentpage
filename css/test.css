@@ -11,8 +11,15 @@ li {
   text-align: left;
   line-height: 40px;
 }
+
+#box {
+  margin: 0 auto;
+  font-size: 25px;
+}
+
 #outer {
-  position: relative;
+  position: absolute;
   width: 100%;
-  top: 29%;
+  max-height: 600px;
+  top: 39%;
 }

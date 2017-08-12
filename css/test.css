@@ -12,7 +12,8 @@ li {
   line-height: 40px;
 }
 #outer {
-  position: relative;
+  position: absolute;
   width: 100%;
-  top: 29%;
+  height: auto;
+  top: 40%;
 }

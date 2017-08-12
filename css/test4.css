@@ -1,0 +1,25 @@
+a {
+  color: #515567;
+  text-decoration: none;
+  text-shadow: 0 2px 0 #ffffff;
+}
+a:hover {
+  color: #ef0000;
+}
+li {
+  list-style: none;
+  text-align: left;
+  line-height: 40px;
+}
+
+#box {
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+#outer {
+  position: absolute;
+  width: 100%;
+  max-height: 600px;
+  top: 39%;
+}
